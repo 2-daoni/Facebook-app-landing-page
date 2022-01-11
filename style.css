@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -18,8 +19,151 @@ a {
   text-decoration: none;
 }
 
+button {
+  border: none;
+  border-radius: 5px;
+  width: 160px;
+  height: 45px;
+  cursor: pointer;
+}
+
 /* header 영역 */
 .header {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  margin: 10px 0 0 50px;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+
+.menu a {
+  color: #000;
+  font-size: 1rem;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.menu a.highlight,
+.menu a:hover {
+  color: #2d88ff;
+}
+
+.white {
+  position: absolute;
+  right: 100px;
+  background-color: #fff;
+}
+
+.white a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #3b5998;
+}
+
+ion-icon {
+  margin-right: 10px;
+}
+
+/* main 영역 */
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.text-container {
+  width: 50%;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-container p:nth-child(3) {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.text-container strong {
+  font-size: 100px;
+  color: #3b5998;
+}
+
+.blue {
+  background-color: #3b5998;
+  margin-right: 20px;
+}
+
+.blue:hover {
+  background-color: #2d88ff;
+}
+
+.blue a {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.slide-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.slide-container img {
+  margin: 20px 100px 0 0;
+  display: none;
+}
+
+.slide-container img.active {
+  display: block;
+}
+
+.slide_btn {
+  display: flex;
+  flex-direction: column;
+}
+
+.slide_btn button {
+  border-radius: 0;
+  margin-bottom: 10px;
+  width: 10px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.slide_btn .active {
+  background-color: #fff;
+}
+
+/* footer 영역 */
+
+.sci ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60px;
+  align-items: center;
+}
+
+.sci a {
+  color: #3b5998;
+  font-size: 1.8rem;
+  margin-right: 10px;
+}
+
+.sci a:hover {
+  color: #2d88ff;
 }

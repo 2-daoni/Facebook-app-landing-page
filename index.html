@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <title>Facebook</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -17,45 +20,61 @@
     </div>
     <div class="nav">
       <ul class="menu">
-        <li><a href="#">Home</a></li>
+        <li><a href="#" class="highlight">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Support</a></li>
       </ul>
     </div>
     <button class="white">
       <a href="#">
-        <ion-icon name="arrow-down-outline"></ion-icon>Download
+        <ion-icon name="arrow-down-outline"></ion-icon>Download App
       </a>
     </button>
   </div>
   <div class="main">
     <div class="text-container">
-      <h1>Facebook</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae earum qui nulla dignissimos dolorum in a fuga est. Minus incidunt excepturi minima, reprehenderit quaerat voluptate optio atque voluptatum ipsum.</p>
+      <strong>Facebook</strong>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta vitae earum qui nulla dignissimos dolorum in a
+        fuga est. Minus incidunt excepturi minima, reprehenderit quaerat voluptate optio atque voluptatum ipsum.</p>
       <p>Download the app</p>
       <div class="btn">
         <button class="blue">
-        <a href="#">Apple Store</a>
-      </button>
-      <button class="blue">
-        <a href="#">Play Store</a>
-      </button>
+          <a href="#"><ion-icon name="logo-apple"></ion-icon>Apple Store</a>
+        </button>
+        <button class="blue">
+          <a href="#"><ion-icon name="logo-apple"></ion-icon>Play Store</a>
+        </button>
       </div>
     </div>
     <div class="slide-container">
       <div class="img">
-        <img src="images/fb1.png">
+        <img src="images/fb1.png" class="slides active">
+        <img src="images/fb2.png" class="slides">
+        <img src="images/fb3.png" class="slides">
+        <img src="images/fb4.png" class="slides">
+        <img src="images/fb5.png" class="slides">
       </div>
       <div class="slide_btn">
+        <button class="slides_btn active"></button>
+        <button class="slides_btn"></button>
+        <button class="slides_btn"></button>
+        <button class="slides_btn"></button>
+        <button class="slides_btn"></button>
       </div>
     </div>
   </div>
   <div class="footer">
     <div class="sci">
       <ul>
-        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        <li><a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li><a href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li><a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
       </ul>
     </div>
   </div>
