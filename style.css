@@ -167,3 +167,79 @@ ion-icon {
 .sci a:hover {
   color: #2d88ff;
 }
+
+/* 미디어쿼리 */
+@media screen and (max-width: 1300px) {
+  .white {
+    right: 30px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background: #fff;
+  }
+  .white {
+    display: none;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .logo {
+    margin-left: 30px;
+  }
+  .main {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .slide-container {
+    flex-direction: column;
+  }
+  .slide-container img {
+    margin-right: 0;
+    margin-top: 50px;
+  }
+  .slide_btn {
+    flex-direction: row;
+  }
+  .slide_btn button {
+    margin: 30px 10px 0 0;
+    width: 30px;
+    height: 10px;
+    background-color: rgba(187, 182, 182, 0.425);
+  }
+  .slide_btn .active {
+    background-color: #3b5998;
+  }
+  .text-container {
+    margin: 0;
+    text-align: center;
+    width: 70%;
+  }
+  .text-container strong {
+    font-size: 3rem;
+    margin-top: 10px;
+  }
+  .text-container p {
+    margin-top: 10px;
+  }
+  .footer {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sci ul {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .logo {
+    margin-left: 15px;
+  }
+  .blue {
+    margin-bottom: 10px;
+  }
+}
